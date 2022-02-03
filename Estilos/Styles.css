@@ -267,12 +267,7 @@ nav ul .dos{
 
 
 /*QUIENES SOMOS*/
-#persona{
-    width: 200px;
-    height: 250px;
-    margin-left: 850px;
-    border: 1px solid #000000;
-}
+
 .tex-per{
     margin-top: 200px;
     margin-bottom: 70px;
@@ -280,13 +275,7 @@ nav ul .dos{
     font-size: 27px;
     color: #7a7a7a;
 }
-.QS{
-    text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 20px;
-    line-height: 30px;
-}
+
 
 
 
@@ -411,8 +400,27 @@ h6{
     position: absolute;
 }
 
+#parrafo{
+    display: flex;
+    text-align: right;
+    flex-wrap: wrap;
+    padding: 100px;
+    background-color: var(--sea-water);
+}
   
-  
+#persona{
+    width: 300px;
+    height: 350px; 
+    margin-left: 10px;
+    border: 1px solid #000000;
+    
+}
+.QS{
+    margin-left: 400px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
 
     
     
